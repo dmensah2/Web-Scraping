@@ -16,7 +16,7 @@ writer = csv.DictWriter(output, fieldnames=["Name", "Address", "Lat", "Long"])
 writer.writeheader()
 
 # enter your api key here
-api_key = 'AIzaSyAryhQfKiL1MiGHHiBO6wL_Nciw4LR61TU'
+api_key = ['YOUR_API_KEY']
 
 # url variable store url
 url = "https://maps.googleapis.com/maps/api/place/textsearch/json?"
